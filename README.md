@@ -184,7 +184,7 @@ python train.py \
     --architecture AVRelScore \
     --gpu 0
 ```
-
+Or directly use the script provided at ./AVSR/run_ft.sh
 
 Descriptions of training parameters are as follows:
 - `--data_path`: Preprocessed Dataset location (LRS2 or LRS3)
@@ -225,6 +225,7 @@ python test.py \
     --lm_weight 0.5 \
     --gpu 3
 ```
+Or directly use the script provided at ./AVSR/test.sh
 
 
 
